@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "pgctf",
   "version": "3.0.0",
   "scripts": {
     "dev": "astro dev",
@@ -49,6 +49,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
+  "trustedDependencies": [
+    "sharp"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
